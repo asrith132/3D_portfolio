@@ -15,11 +15,7 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
+        As a CS student at Purdue University, I've built several projects that showcase my passion for technology and problem-solving. My main focus is currently on Gameday, a comprehensive sports tracking platform for high school athletics. If you're interested in learning more about any of these projects or have opportunities you'd like to discuss, I'd love to hear from you!
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>
@@ -44,11 +40,11 @@ const Projects = () => {
               <div className='mt-5 flex items-center gap-2 font-poppins'>
                 <Link
                   to={project.link}
-                  target='_blank'
+                  target={project.name === 'Gameday Website/App' ? '_self' : '_blank'}
                   rel='noopener noreferrer'
                   className='font-semibold text-blue-600'
                 >
-                  Live Link
+                  {project.name === 'Gameday Website/App' ? 'Contact for Info' : 'Live Link'}
                 </Link>
                 <img
                   src={arrow}
