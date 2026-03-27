@@ -172,6 +172,13 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: motion,
+        theme: 'btn-back-orange',
+        name: 'Eval Chess - Live AI Chess Assistant',
+        description: 'Eval Chess is an AI-powered chess assistant that integrates with live gameplay (e.g., chess.com) through a screen overlay. It captures game state in real time, processes engine evaluations, and delivers simplified explanations, move suggestions, and strategy insights tailored to the player\'s skill level. The system is designed to help users learn while playing, rather than analyzing games afterward.',
+        link: '#',
+    },
+    {
         iconUrl: estate,
         theme: 'btn-back-black',
         name: 'Gameday Website/App',
@@ -183,7 +190,14 @@ export const projects = [
         theme: 'btn-back-blue',
         name: 'Zylla - AI Academic Calendar Generator',
         description: 'AI-powered web application that intelligently extracts schedule information from academic syllabus documents and integrates with calendar applications. Built with React 18, TypeScript, FastAPI, and deterministic regex patterns to achieve 95% confidence in extracting 45+ events from PDF/DOCX files with Google Calendar, Outlook, and iCal export capabilities.',
-        link: 'https://zylla.vercel.app',
+        link: 'https://zylla.org',
+    },
+    {
+        iconUrl: summiz,
+        theme: 'btn-back-yellow',
+        name: 'CardPulse - Real-Time Sports Card Market Analytics',
+        description: 'CardPulse is a data-driven platform that monitors the sports card market in real time, aggregating pricing data, sales trends, and player performance metrics. It provides users with insights on card value fluctuations, market demand, and investment opportunities, enabling collectors to buy, sell, and track cards more intelligently.',
+        link: '#',
     },
     {
         iconUrl: snapgram,
